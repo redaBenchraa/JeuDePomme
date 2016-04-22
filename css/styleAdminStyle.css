@@ -1,0 +1,194 @@
+#body{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #50a3a2;
+  	background: -webkit-linear-gradient(top left, #ff5c3b 0%, #ff2c65 100%);
+  	background: linear-gradient(to bottom right, #ff5c3b 0%, #ff2c65 100%);
+}
+.admin{
+	color: #c83746;
+	font-family: 'CaviarDreams-',arial;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 40px;
+}
+.wrapper{
+	position: absolute;
+	top: 90px;
+	width: 100%;
+	height: 600px;
+	background: white;
+	text-align: center;
+}
+.player{
+	width: 400px;
+	height: 400px;
+	//background: red;
+	margin: 10px 0 0 0 ;
+	display: inline-block;
+}
+.tableHeader{
+	width:all; 
+	height: 40px;
+	font-size: 25px;
+	background: #363636;
+	margin: 10px;
+	text-align: center;
+	font-family: 'CaviarDreams-',arial;
+	color: white;
+	padding-top: 10px;
+	border-radius: 10px 10px 0 0;
+}
+.tableRows{
+	width: all;
+	height: 350px;
+	background: #363636;
+	margin: 10px;
+	border-radius: 0px 0px 5px 5px;
+	overflow-y: scroll;
+	text-align: center;
+	padding: 10px;
+}
+
+.tableRowName{
+	text-align: center;
+	color: #af374b;
+	font-family: 'CaviarDreams-',arial;
+	font-size: 25px;
+	border-bottom: 2px solid #424242; 
+	margin: 10px;
+	padding: 5px 5px 5px 0;
+}
+.start{
+	cursor: pointer;
+	position: relative;
+	margin: 1px;
+	left : 38%;
+	width: 24%;
+	padding: 5px;
+	background: #363636;
+	border-radius: 5px;
+	font-family: 'CaviarDreams-',arial;
+	font-size: 40px;
+	color: white;
+}
+.timer{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.time{
+	display: inline-block;
+}
+.timer .mostatile{
+	font-family: 'CaviarDreams-',arial;
+	font-size: 17px;
+	color: white;
+	width: 160px;
+	padding-top:10px;
+	padding-bottom: 10px; 
+	background: #e83f53;
+	border-radius: 0px 5px 5px 0px;
+	z-index:2;
+}
+.timerInput{
+	text-decoration: none;
+	border: none;
+	border-radius: 1000px;
+	width: 40px;
+	height: 40px;
+	margin-right: -12px;
+	margin-bottom: -32px;
+	background: #63393d;
+	font-family: 'CaviarDreams-',arial;
+	font-size: 25px;
+	color: white;
+	padding: 10px; 
+	z-index: 4;
+	border: 10px solid #e8375a;
+	text-align: center;
+	cursor: pointer;
+}
+input:focus{
+	outline: none;
+}
+
+.gameF,.gameTimerF,.heart{
+	display: inline-block;
+}
+.gameF{
+	margin: 3px;
+}
+.game{
+	margin-top: 30px;
+	width: all;
+	background:;
+	text-align: center;
+}
+.timerWatch{
+	background: #2a2a2a;
+	padding: 10px;
+	width: 150px;
+	border-radius: 5px 0px 0px 5px;
+	color: #ff3161;
+	font-size: 30px;
+	font-family: 'CaviarDreams-',arial;
+}
+.iconWatch{
+	padding: 10px;
+	margin-left: -10px;
+	color: #ff3161;
+	font-family: 'CaviarDreams-',arial;
+	font-size: 30px;
+	background: #353535;
+	border-radius: 0px 5px 5px 0px;
+}
+.parties{
+	width: 180px;
+	border-radius: 5px;
+	background: #2a2a2a;
+	text-align: center;
+	font-family: arial;
+	padding-bottom: 10px;
+	padding-top: 8px;
+}
+.heart{
+	color: #ff3161;
+	font-family: 'CaviarDreams-',arial;
+	font-size: 30px;
+	width: 30px;
+	height: 32px;
+	background-image: url(../pictures/partyAlive.png);
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.dead{
+	background-image: url(../pictures/partyDead.png);
+}
+.startgame{
+	width: 100px;
+ 	background: #ff4153;
+ 	color: white;
+	font-family: 'CaviarDreams-',arial;
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #484848;
+    border-radius: 0 0 2px 2px; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #484848;
+}	
